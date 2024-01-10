@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 240px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .logo-image {
+    height: 40px; 
+    margin-right: 10px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .icon {
+    width: 24px; 
+    margin-right: 10px;
+  }
+  
