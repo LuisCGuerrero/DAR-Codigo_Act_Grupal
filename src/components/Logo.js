@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/LogoBar.css';
+import './styles/Logo.css';
 
 function ButtonLink({ to, children }) {
   return <Link to={to} className="link"><span>{children}</span></Link>;

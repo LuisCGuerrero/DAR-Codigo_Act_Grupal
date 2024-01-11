@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './LogoBar'
+import Logo from './Logo'
 import './styles/Login.css';
 
 function Login() {

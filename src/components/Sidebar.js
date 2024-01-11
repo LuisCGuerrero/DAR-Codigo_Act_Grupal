@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Sidebar.css';
-import Logo from './LogoBar.js'
+import Logo from './Logo.js'
 
 function Sidebar() {
   return (
