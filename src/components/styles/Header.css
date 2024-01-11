@@ -17,17 +17,3 @@
     padding: 15px;
     color: rgb(145, 145, 145);
 }
-
-.login{
-    float: right;
-
-    width: 130px;
-    padding: 15px;
-
-    border: 1px solid white;
-    border-radius: 9999px;
-    text-align: center;
-    background-color: white;
-    color: black;
-}
-
