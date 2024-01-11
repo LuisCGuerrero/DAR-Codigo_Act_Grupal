@@ -1,21 +1,17 @@
 import React from 'react';
-import './App.css';
-import Sidebar from './components/Sidebar'
-import Header from './components/Header'
+import Home from './components/Home';
+import Login from './components/Login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="app">
-      <Sidebar /> 
-      <main className="app-content">
-        <header className="app-header">
-          <Header />
-        </header>
-        <section className="content-section">
-          {/* sección principal */}
-        </section>
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        {/* <Route path="*" element={<NoPage />} /> */}
+      </Routes>
+    </Router>
   );
 }
 

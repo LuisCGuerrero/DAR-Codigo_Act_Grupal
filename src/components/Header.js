@@ -1,14 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Header.css';
+
+function ButtonLink({ to, children }) {
+  return <Link to={to}><span>{children}</span></Link>;
+}
+
+function LoginButton(){
+  return(
+    <div className="login">
+      <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+    </div>
+  );
+}
 
 function Header() {
   return (
     <div className="leftHeader">
-      <div className="login">
-        <span className="Btext">Iniciar Sesión</span>
-      </div>
+      <LoginButton />
       <div className="register">
-        <span className="Btext">Registrarte</span>
+        <span>Registrarte</span>
       </div>
     </div>
   );
