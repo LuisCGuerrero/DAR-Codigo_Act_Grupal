@@ -8,7 +8,7 @@ function ButtonLink({ to, children }) {
 
 function Logo(){
   return(
-    <div className="logo">
+    <div>
       <ButtonLink to="/"><img src="https://i.pinimg.com/originals/52/a3/fe/52a3fea300d4c0e1bd411deff2b8fcdb.jpg" alt="Logo" className="logo-image" /></ButtonLink>
     </div>
   );

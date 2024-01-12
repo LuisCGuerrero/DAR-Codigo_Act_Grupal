@@ -1,6 +1,36 @@
+.body{
+ background-color: #2a2a2a;
+ height: 950px;
+ color: white;
+}
+
 .loginHeader {
-    background-color: #000;
-    color: #fff;
-    min-height: 100vh;
-    padding: 20px;
-  }
+  background-color: #000;
+  color: #fff;
+  height: 35px;
+  padding: 32px;
+}
+
+.centralContainer{
+  margin: auto;
+  height: 60%;
+  width: 38%;
+  background-color: #000;
+  border-radius: 8px;
+  margin-top: 31px;
+  position: relative;
+}
+
+.loginTitle{
+  text-align: center !important;
+  font-size: 46px;
+  font-weight: 700;
+  padding-top: 65px;
+}
+
+.divisor{
+  border-top: 1px solid rgb(41, 41, 41);
+  box-sizing: border-box;
+  background-color: black;
+
+}

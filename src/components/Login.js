@@ -4,8 +4,17 @@ import './styles/Login.css';
 
 function Login() {
   return (
-    <div className="loginHeader">
+    <div className="body">
+      <div className="loginHeader">
         <Logo/>
+      </div>
+      <div className="centralContainer">
+        <div className="loginTitle">
+          Inicia sesión en Spotify
+        </div>
+        <hr className='divisor'>
+        </hr>
+      </div>
     </div>
   );
 }
