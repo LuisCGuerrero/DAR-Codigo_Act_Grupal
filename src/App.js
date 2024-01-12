@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar'
+import SongFeed from './components/SongFeed';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           {/* navbar */}
         </header>
         <section className="content-section">
-          {/* sección principal */}
+          <SongFeed />
         </section>
       </main>
     </div>
