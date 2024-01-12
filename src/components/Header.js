@@ -1,14 +1,13 @@
 import React from 'react';
+import LoginButton from './LoginButton'
 import './styles/Header.css';
 
 function Header() {
   return (
     <div className="leftHeader">
-      <div className="login">
-        <span className="Btext">Iniciar Sesión</span>
-      </div>
+      <LoginButton />
       <div className="register">
-        <span className="Btext">Registrarte</span>
+        <span>Registrarte</span>
       </div>
     </div>
   );
