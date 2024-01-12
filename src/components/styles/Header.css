@@ -1,0 +1,19 @@
+.leftHeader{
+    overflow: hidden;
+    width: 98%;
+    margin-top: 0.5%;
+    padding: 10px;
+    font-weight: 750;
+
+    border: 1px solid rgba(128, 128, 128, 0.185);
+    border-radius: 9px;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.register{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(145, 145, 145);
+}
