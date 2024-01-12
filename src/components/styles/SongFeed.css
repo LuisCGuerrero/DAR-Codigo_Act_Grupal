@@ -1,0 +1,19 @@
+.song-feed {
+  color: #fff;
+  background-color: #000;
+  padding: 20px; /* Reducir si quieres menos espacio al borde */
+  font-family: 'Roboto', sans-serif;
+}
+
+.song-feed > h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.song-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  width: 99%; 
+}
