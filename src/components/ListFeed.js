@@ -1,8 +1,9 @@
 import React from "react";
 import ListItem from "./ListItem";
-import "./styles/ListFeed.css";
+import ListGroup from "./ListGroup";
+import "./styles/ListGroup.css";
 
-const listData = [
+const listDataForYou = [
   {
     id: 1,
     image: "/img/ListFeed/mix1.png",
@@ -43,18 +44,8 @@ const listData = [
 
 function ListFeed() {
   return (
-    <div>
-      <h2> Hecho para ti </h2>
-      <div className="list-feed">
-        {listData.map((list) => (
-          <ListItem
-            key={list.id}
-            image={list.image}
-            title={list.title}
-            description={list.description}
-          />
-        ))}
-      </div>
+    <div className="list-feed">
+      <ListGroup listData={listDataForYou} title={"Hecho para ti"} />
     </div>
   );
 }
