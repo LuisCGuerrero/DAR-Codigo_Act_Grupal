@@ -1,0 +1,14 @@
+.list-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  padding: px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-feed > h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #fff; 
+  background-color: #000; 
+}

@@ -7,6 +7,7 @@
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    position: relative;
 }
 
 .item-image {
@@ -36,4 +37,23 @@
 
 .item:hover {
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+.song-item-play-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -2px;
+    right: 5px;
+    background: url('/public/img/playIcon.png') center/cover no-repeat;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.item:hover .song-item-play-icon {
+    opacity: 1;
+    visibility: visible;
+    bottom: 8px;
+    display: block;
 }
