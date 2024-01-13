@@ -9,7 +9,7 @@ function ButtonLink({ to, children }) {
   function LoginButton(){
     return(
       <div className="loginButton">
-        <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+        <ButtonLink to="/">Iniciar Sesión</ButtonLink>
       </div>
     );
   }
