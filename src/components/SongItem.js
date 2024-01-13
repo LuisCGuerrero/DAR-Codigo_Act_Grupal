@@ -9,6 +9,7 @@ function SongItem({ image, title, description }) {
         <h3 className="item-title">{title}</h3>
         <p className="item-description">{description}</p>
       </div>
+      <div className="song-item-play-icon"></div> 
     </div>
   );
 }

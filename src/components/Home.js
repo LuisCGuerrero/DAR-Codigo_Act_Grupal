@@ -3,6 +3,7 @@ import './styles/Home.css';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import SongFeed from './SongFeed';
+import ListFeed from './ListFeed';
 
 
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
         </header>
         <div className="app-body">
           <SongFeed />
+          <ListFeed />
         </div>
       </main>
       </div>

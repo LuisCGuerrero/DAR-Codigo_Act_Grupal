@@ -1,0 +1,67 @@
+.list-item {
+    background-color: #181818;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 20px;
+    border: 1px solid #2e2e2e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-color: #181818;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.list-item-image {
+    width: calc(100% - 2px);
+    height: 180px;
+    object-fit: cover;
+    margin: 1px;
+    border-radius: 7px 7px 0 0;
+}
+
+.list-item:hover {
+    background-color: #282727;
+}
+
+
+.list-item-info {
+    padding: 16px;
+}
+
+.list-item-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 4px;
+}
+
+.list-item-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin: 0;
+}
+
+.list-item, .list-item-title, .list-item-description {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-item-play-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 86px;
+    right: 30px;
+    background: url('/public/img/playIcon.png') center/cover no-repeat;
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.list-item:hover .list-item-play-icon {
+    display: block;
+    opacity: 1;
+    bottom: 96px;
+}
