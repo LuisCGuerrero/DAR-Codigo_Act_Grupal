@@ -3,15 +3,20 @@ import { Link } from 'react-router-dom';
 import './styles/LoginButton.css';
 
 function ButtonLink({ to, children }) {
-    return <Link to={to} className="noLinkAspect"><span>{children}</span></Link>;
-  }
+    return <Link to={to} className="noLinkAspect"><span>{children}</span></Link>
+}
   
-  function LoginButton(){
+function LoginButton({color}){
     return(
-      <div className="loginButton">
-        <ButtonLink to="/">Iniciar Sesión</ButtonLink>
-      </div>
-    );
-  }
+        (color === 'green' ?
+            <div className="loginButtonGreen">
+                <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+            </div>
+        :
+            <div className="loginButton">
+                <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+            </div>
+    ));
+}
 
 export default LoginButton;

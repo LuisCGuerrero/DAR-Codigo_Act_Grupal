@@ -1,36 +1,76 @@
-.body{
- background-color: #2a2a2a;
- height: 950px;
- color: white;
+.loginBody{
+	background:linear-gradient(rgb(30, 30, 30) 0%, rgb(0, 0, 0) 93%);
+	color: white;
+	padding-bottom: 50px;
 }
 
 .loginHeader {
-  background-color: #000;
-  color: #fff;
-  height: 35px;
-  padding: 32px;
+	background-color: #000;
+	color: #fff;
+	height: 35px;
+	padding: 32px;
 }
 
 .centralContainer{
-  margin: auto;
-  height: 60%;
-  width: 38%;
-  background-color: #000;
-  border-radius: 8px;
-  margin-top: 31px;
-  position: relative;
+	margin: 31px auto;
+	width: 38%;
+	padding-bottom: 1%;
+	background-color: #000;
+	border-radius: 8px;
+	position: relative;
 }
 
 .loginTitle{
-  text-align: center !important;
-  font-size: 46px;
-  font-weight: 700;
-  padding-top: 65px;
+	text-align: center !important;
+	font-size: 44px;
+	font-weight: 700;
+	padding-top: 65px;
 }
 
-.divisor{
-  border-top: 1px solid rgb(41, 41, 41);
-  box-sizing: border-box;
-  background-color: black;
+.passText{
+	position: relative;
+	margin: -10px auto;
+	text-decoration: underline;
+	text-align: center;
+	box-sizing: content-box;
+	font-weight: 505;
+	padding-bottom: 1%;
+}
 
+.passText:hover{
+	color: #2bff75d3;
+	cursor: pointer;
+}
+
+.noAccText{
+	position: relative;
+	margin: 50px auto;
+	text-align: center;
+	box-sizing: content-box;
+	color: #a7a7a7;
+}
+
+.link1{
+	position: relative;
+	margin: 50px auto;
+	text-align: center;
+	box-sizing: content-box;
+	text-decoration: underline;
+	font-weight: 505;
+	color: white;
+}
+
+.link1:hover{
+	color: #2bff75d3;
+	cursor: pointer;
+}
+
+.infoText{
+	font-size: 11px;
+	position: relative;
+	margin-top: 3%;
+	text-align: center;
+	box-sizing: content-box;
+	font-weight: 505;
+	color: #a7a7a7;
 }
