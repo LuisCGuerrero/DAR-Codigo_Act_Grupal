@@ -1,0 +1,51 @@
+.remindCheckboxContainer{
+	position: relative;
+	margin-left: 30%;
+	margin-top: 3%;
+	font-size: 15px;
+    font-weight: 450;
+}
+
+.checkbox-slider input {
+    display: none;
+}
+
+.checkbox-slider label {
+    position: relative;
+    cursor: pointer;
+	left: 8%;
+}
+
+.checkbox-slider label:after {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 5px;
+    left: calc(-55% + 9px);
+    background: #121212;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+}
+
+.checkbox-slider label:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    position: absolute;
+	top: 2px;
+    left: calc(-55% + 5px);
+    background: #727272;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+}
+
+.checkbox-slider input:checked + label:after {
+    left: calc(-40% + 7px);
+}
+
+.checkbox-slider input:checked + label:before {
+    background: #2bff75d3;
+}
