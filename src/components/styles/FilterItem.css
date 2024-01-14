@@ -1,5 +1,12 @@
-.item-info {
+.filter-item {
+    background-color: #4f4a4a;    
+    border-radius: 9999px;
+    /* padding: 1px 14px 1px 14px; */
+}
+
+.filter-item-info {
     color: #b3b3b3;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
+    text-align: center;
 }

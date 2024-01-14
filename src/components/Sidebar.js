@@ -5,7 +5,7 @@ import FilterItem from './FilterItem.js';
 
 
 const filterData = [
-  {id: 1, title: 'Listas', description: ''},
+  {id: 1, title: 'Listas'},
   {id: 2, title: 'Podcasts y programas'},
   {id: 3, title: 'Álbumes'},
   {id: 4, title: 'Artistas'}
@@ -14,8 +14,8 @@ const filterData = [
 function Sidebar() {
   return (
       <div className="sidebar">
-        <Logo/>
-        <div className="sidebar-top">
+        {/* <Logo/> */}
+        <div className="sidebar-top sidebar-element">
           <div className="menu-item">
             <img src="https://cdn3.emoji.gg/emojis/7184-spotify-home.png" alt="Inicio" className="icon" />
             <span>Inicio</span>
@@ -25,15 +25,21 @@ function Sidebar() {
             <span>Buscar</span>
           </div>
         </div>
-        <div className="tu-biblioteca">
+        <div className="tu-biblioteca sidebar-element">
           {/*Falta el logo*/}
-          <span>Tu Biblioteca</span>
+            <div className='box-header'>
+              <div className='box-title'>
+                <span >Tu Biblioteca</span>
+              </div>
+              <div className='box-action'>+</div>
+              <div className='box-action'>-</div>
+            </div>
           {/*Logo + y ->*/}
-          <div classname="sidebar-filter">
-            {filterData.map(filter => (
-              <FilterItem key={filter.id} title={filter.title} />
-            ))}
-          </div> {/*Debería mostrarse en una única fila*/}
+            <div className="sidebar-filter">
+              {filterData.map((filter) => (
+                <FilterItem key={filter.id} title={filter.title} />
+                ))}
+            </div> {/*Debería mostrarse en una única fila*/}
           <div className="playlist">
             <p>Aqui van les playlist</p>
           </div>
