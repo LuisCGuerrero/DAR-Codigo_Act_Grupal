@@ -11,12 +11,20 @@ function Input({text, type}){
             </div>
         </div>
         :
+        type === 'black' ?
         <div className='inputContainer'>
-        <div className='emailInputContainer'>
-            <div>{text}</div>
-            <input type='text' className='emailInput'></input>
+            <div className='emailInputContainer'>
+                <div>{text}</div>
+                <input type='text' className='emailInput2' placeholder="nombre@dominio.com"></input>
+            </div>
         </div>
-    </div>
+        :
+        <div className='inputContainer'>
+            <div className='emailInputContainer'>
+                <div>{text}</div>
+                <input type='text' className='emailInput'></input>
+            </div>
+        </div>
     ));
 }
 

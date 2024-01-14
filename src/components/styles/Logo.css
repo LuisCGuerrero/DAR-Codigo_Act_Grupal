@@ -3,4 +3,10 @@
     height: 36px; 
     margin-right: 15px;
     margin-left: 17px;
-  }
+}
+
+.logo-image2{
+  align-items: center;
+  height: 32px; 
+  padding: 32px;
+}
