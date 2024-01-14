@@ -12,6 +12,8 @@
 
 .loginButton:hover{
     cursor: pointer;
+    vertical-align: middle;
+    padding: 18px;
 }
 
 .loginButtonGreen{
@@ -27,8 +29,8 @@
 
 .loginButtonGreen:hover{
     cursor: pointer;
-    width: 43%;
-    height: 23px;
+    vertical-align: middle;
+    padding: 18px;
 }
 
 .noLinkAspect{
