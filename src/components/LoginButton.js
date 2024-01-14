@@ -10,11 +10,11 @@ function LoginButton({color}){
     return(
         (color === 'green' ?
             <div className="loginButtonGreen">
-                <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+                <ButtonLink to="/home">Iniciar Sesión</ButtonLink>
             </div>
         :
             <div className="loginButton">
-                <ButtonLink to="/login">Iniciar Sesión</ButtonLink>
+                <ButtonLink to="/">Iniciar Sesión</ButtonLink>
             </div>
     ));
 }
