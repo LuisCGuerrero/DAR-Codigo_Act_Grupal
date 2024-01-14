@@ -7,10 +7,32 @@
     background-color: white;
     color: black;
     border: 1px solid white;
-    border-radius: 9999px;
+    border-radius: 500px;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+}
+
+.loginButtonGreen{
+    margin: 40px auto;
+    padding: 14px;
+    text-align: center;
+	width: 38%;
+    
+    background-color: #2bff75d3;
+    color: white;
+    border-radius: 500px;
+}
+
+.loginButtonGreen:hover{
+    cursor: pointer;
+    width: 43%;
+    height: 23px;
 }
 
 .noLinkAspect{
     text-decoration:none;
     color: black;
+    font-weight: 650;
 }

@@ -14,7 +14,6 @@ function Sidebar() {
           <img src="https://cdn3.emoji.gg/emojis/3421-spotify-search.png" alt="Buscar" className="icon" />
           <span>Buscar</span>
         </div>
-        {/* Agregar más elementos de menú según sea necesario */}
       </div>
   );
 }
