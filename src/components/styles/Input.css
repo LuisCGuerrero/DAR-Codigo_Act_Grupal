@@ -7,12 +7,26 @@
 .emailInputContainer{
     font-size: 14px;
     font-weight: 500;
+	color: white;
 }
 
 .emailInput{
 	margin-top: 3%;
 	appearance: none;
 	border: 0px;
+	width: 80%;
+	height: 45px;
+	border-radius: 3px;
+	font-size: 16px;
+    font-weight: 500;
+	padding-left: 16px;
+}
+
+.emailInput2{
+	margin-top: 3%;
+	appearance: none;
+	background-color: #121212;
+	border: 1px solid rgb(118, 118, 118);
 	width: 80%;
 	height: 45px;
 	border-radius: 3px;

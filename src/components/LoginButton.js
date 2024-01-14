@@ -13,6 +13,11 @@ function LoginButton({color}){
                 <ButtonLink to="/home">Iniciar Sesión</ButtonLink>
             </div>
         :
+        color === 'register' ?
+            <div className="loginButtonGreen">
+                <ButtonLink to="/home">Siguiente</ButtonLink>
+            </div>
+        :
             <div className="loginButton">
                 <ButtonLink to="/">Iniciar Sesión</ButtonLink>
             </div>

@@ -1,0 +1,12 @@
+.registerButton{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(145, 145, 145);
+}
+
+.noLinkAspect2{
+    color: white;
+    text-decoration:none;
+}
