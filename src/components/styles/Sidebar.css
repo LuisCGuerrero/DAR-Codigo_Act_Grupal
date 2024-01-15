@@ -43,6 +43,10 @@
   margin-bottom: 20px; 
 }
 
+.p-list{
+  display: grid;
+}
+
 .icon {
   width: 24px; 
   margin-right: 10px;
