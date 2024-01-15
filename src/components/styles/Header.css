@@ -1,18 +1,13 @@
 .leftHeader{
-    overflow: hidden;
-    width: 98%;
-    margin: 0.7% 0.5%;
+    position: fixed;
+    float: right;
+    opacity: 1;
+    z-index: 1;
+    width: 74%;
+    margin: 0.5% 24%;
     padding: 10px;
     font-weight: 750;
 
     border-radius: 9px;
     background-color: rgba(128, 128, 128, 0.185);
-}
-
-.register{
-    float: right;
-    margin-right: 20px;
-    text-align: center;
-    padding: 15px;
-    color: rgb(145, 145, 145);
 }
