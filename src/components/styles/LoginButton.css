@@ -23,14 +23,14 @@
 	width: 38%;
     
     background-color: #2bff75d3;
-    color: white;
     border-radius: 500px;
 }
 
 .loginButtonGreen:hover{
     cursor: pointer;
     vertical-align: middle;
-    padding: 18px;
+    width: 40%;
+    color: white !important;
 }
 
 .noLinkAspect{
