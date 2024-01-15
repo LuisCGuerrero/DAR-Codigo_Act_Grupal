@@ -1,5 +1,4 @@
 import React from "react";
-import ListItem from "./ListItem";
 import ListGroup from "./ListGroup";
 import "./styles/ListGroup.css";
 

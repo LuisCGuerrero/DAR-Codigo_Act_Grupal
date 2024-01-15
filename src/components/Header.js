@@ -6,8 +6,8 @@ import './styles/Header.css';
 function Header() {
     return (
         <div className="leftHeader">
-        <LoginButton />
-        <RegisterButton />
+            <LoginButton />
+            <RegisterButton />
         </div>
     );
 }

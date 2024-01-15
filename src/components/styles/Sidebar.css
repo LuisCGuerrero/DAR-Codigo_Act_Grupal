@@ -1,6 +1,10 @@
  .sidebar{
-  width: 20%;
+  width: 22%;
   background-color: black;
+  position: fixed;
+  padding: 1% 1%;
+  /* display: flex; */
+  /* flex-direction: column; */
  }
 
 .sidebarArriba{
@@ -13,7 +17,7 @@
 
  }
  .sidebarAbajo{
-  background-color: #242424;
+  background-color: rgba(128, 128, 128, 0.185);
   margin: 20px -10px;
   position: relative;
   color: #fff;
@@ -31,17 +35,23 @@
   color: white;
   display: flex;
   padding: 5px;
+  /* margin: 0 10px; */
   border-color: #fff;
   border-radius: 15px;
-  background-color: #636363;
+  background-color: #63636350;
   width: fit-content;
   font-size: 14px;
+}
+
+.category-text{
+  margin: auto 10px;
+  font-weight: 400;
 }
 
 .menu-item {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; 
+  margin-bottom: 10px; 
   font-weight: 700;
   font-size: 17px;
 }
@@ -52,7 +62,7 @@
 }
 
 .logo-inicio{
-  margin-top: -20px;
+  margin: -15px;
   margin-left: -24px;
 }
 

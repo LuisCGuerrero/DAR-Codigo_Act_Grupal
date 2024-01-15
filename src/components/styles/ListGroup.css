@@ -1,8 +1,13 @@
+.list-feed{
+  width: 76%;
+  float: right;
+  z-index: -1;
+}
+
 .list-group {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 16px;
-  padding: px;
   font-family: 'Roboto', sans-serif;
 }
 
