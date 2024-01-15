@@ -9,10 +9,10 @@ import PlaylistItem from './PlaylistItem.js';
 const ButtonSideBar = () => {
     return (
         <div className="btn-sidebar-div">
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Listas</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Artistas</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Álbumes</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Playlist</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Listas</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Artistas</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Álbumes</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Playlist</span></Link>
         </div>
       );
   };
