@@ -1,11 +1,10 @@
 .leftHeader{
     overflow: hidden;
     width: 98%;
-    margin-top: 0.5%;
+    margin: 0.7% 0.5%;
     padding: 10px;
     font-weight: 750;
 
-    border: 1px solid rgba(128, 128, 128, 0.185);
     border-radius: 9px;
     background-color: rgba(128, 128, 128, 0.185);
 }

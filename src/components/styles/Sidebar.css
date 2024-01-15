@@ -1,21 +1,45 @@
-.sidebar {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    width: 240px; 
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
+ .sidebar{
+  width: 27%;
+  background-color: black;
+ }
+.sidebarArriba{
+  background-color: rgba(128, 128, 128, 0.185);
+  margin: -10px -10px;
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+ }
+ .sidebarAbajo{
+  background-color: #242424;
+  margin: 20px -10px;
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+ }
+
+
 
 .menu-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px; 
+  font-weight: 700;
+  font-size: 17px;
 }
 
 .icon {
-  width: 24px; 
+  width: 40px; 
   margin-right: 10px;
 }
+
+.logo-inicio{
+  margin-top: -20px;
+  margin-left: -24px;
+}
+
+
   
