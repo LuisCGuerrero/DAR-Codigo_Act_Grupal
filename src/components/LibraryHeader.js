@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/LibraryHeader.css";
-import iconMore from './img/icons8-añadir-50.png';
 
 function LibraryHeader(){
     return (
@@ -10,7 +9,7 @@ function LibraryHeader(){
                     Tu biblioteca
                 </span>
                 <div className='tu-biblioteca-header-icons'>
-                    <img className='icon' alt="Añadir" src={iconMore} />
+                    <img className='icon' alt="Añadir" src={"/img/Sidebar/icons8-añadir-50.png"} />
                 </div>
             </div>
     );

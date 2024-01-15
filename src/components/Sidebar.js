@@ -3,60 +3,53 @@ import './styles/Sidebar.css';
 import Logo from './Logo.js';
 import LibraryHeader from './LibraryHeader.js';
 import { Link } from 'react-router-dom';
-import like from "./img/like.png"
-import aitana from "./img/aitana_icon.jpeg"
-import guitar from "./img/guitar_icon.jpeg"
-import wild from "./img/wild_icon.jpeg"
-import hola from "./img/hola_icon.jpeg"
-import fito from "./img/fito_icon.jpeg"
-import sabina from "./img/sabina_icon.jpeg"
 import PlaylistItem from './PlaylistItem.js';
 
 
 const ButtonSideBar = () => {
     return (
         <div className="btn-sidebar-div">
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Listas</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Artistas</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Álbumes</span></Link>
-          <Link to="/" className="playlist-categoty"><span className='category-text'>Playlist</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Listas</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Artistas</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Álbumes</span></Link>
+          <Link to="/nopage" className="playlist-categoty"><span className='category-text'>Playlist</span></Link>
         </div>
       );
   };
 
 const playlistData = [
     { id: 1,
-        image: like,
+        image: "/img/Sidebar/like.png",
         title: "Canciones que te gustan",
         description: "Lista",
     },
     { id: 2,
-        image: guitar,
+        image: "/img/Sidebar/guitar_icon.jpeg",
         title: "Rock",
         description: "Género",
     },
     { id: 3,
-        image: aitana,
+        image: "/img/Sidebar/aitana_icon.jpeg",
         title: "Aitana",
         description: "Artista",
     },
     { id: 4,
-        image: wild,
+        image: "/img/Sidebar/wild_icon.jpeg",
         title: "The Wild Proyect",
         description: "Podcast",
     },
     { id: 5,
-        image: hola,
+        image: "/img/Sidebar/hola_icon.jpeg",
         title: "Hola Beats",
         description: "Artista",
     },
     { id: 6,
-        image: fito,
+        image: "/img/Sidebar/fito_icon.jpeg",
         title: "Fitografía",
         description: "Álbum - Fito y Fitipaldis",
     },
     { id: 7,
-        image: sabina,
+        image: "/img/Sidebar/sabina_icon.jpeg",
         title: "Joaquín Sabina",
         description: "Artista",
     },
@@ -70,11 +63,11 @@ function Sidebar() {
                 <Logo color="white"/>
                 </div>
             <div className="menu-item">
-                <img src="https://cdn3.emoji.gg/emojis/7184-spotify-home.png" alt="Inicio" className="icon" />
+                <img src="/img/Sidebar/spotify_home.png" alt="Inicio" className="icon" />
                 <span>Inicio</span>
             </div>
             <div className="menu-item">
-                <img src="https://cdn3.emoji.gg/emojis/3421-spotify-search.png" alt="Buscar" className="icon" />
+                <img src="/img/Sidebar/spotify_search.png" alt="Buscar" className="icon" />
                 <span>Buscar</span>
             </div>
         </div>
